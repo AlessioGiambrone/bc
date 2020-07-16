@@ -147,11 +147,11 @@ This is a learning toy project so there aren't many features implemented.
 
 But it would be good that:
 
-[ ] configurable difficulty for the proof
-[ ] configurable IP address (some magic here?) and (wallet) address
-[ ] other nodes should be notified of new blocks
-[ ] other nodes should be notified of new transactions
-[ ] support to bigger chains (so not just in memory and no full-blockchain responses)
-[ ] more tests
-[ ] building Docker container requires openssl vendored, but it should be just
+- [ ] configurable difficulty for the proof
+- [ ] configurable IP address (some magic here?) and (wallet) address
+- [ ] other nodes should be notified of new blocks
+- [ ] other nodes should be notified of new transactions
+- [ ] support to bigger chains (so not just in memory and no full-blockchain responses)
+- [ ] more tests
+- [ ] building Docker container requires openssl vendored, but it should be just
     a sub-dependency
