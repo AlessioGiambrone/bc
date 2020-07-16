@@ -1,0 +1,21 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly
+jobs:
+  include:
+    - name: "build the project and run tests"
+      install: skip
+      script:
+        - cargo build --verbose --all
+        - cargo test --verbose --all
+    - name: "builds a container"
+      install: skip
+      services:
+        - docker
+      script:
+        - "docker build ."
