@@ -1,4 +1,6 @@
-# Rust Blockchain exercise
+# Rust Blockchain
+
+[![Build Status](https://travis-ci.org/AlessioGiambrone/bc.svg?branch=master)](https://travis-ci.org/AlessioGiambrone/bc)
 
 This is a pretty basic blockchain written as an exercise in Rust.
 
